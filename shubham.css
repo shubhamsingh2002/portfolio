@@ -1,0 +1,294 @@
+@Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Poppins:wght@400;500;600;700&Display=Swap");
+
+* {
+  Margin: 0;
+  Padding: 0;
+  Box-Sizing: Border-Box;
+  Font-Family: "Poppins", Sans-Serif;
+}
+A {
+  Text-Decoration: None;
+}
+.Hero {
+  Width: 100%;
+  Height: 100vh;
+  Background: Url(ooo.jpeg.jpg);
+  Background-Size: Cover;
+}
+Nav {
+  Display: Flex;
+  Align-Items: Center;
+  Justify-Content: Space-Between;
+  Padding: 30px 100px;
+}
+.Logo {
+  Max-Height: 160px;
+  border-radius: 50%;
+}
+Nav Ul Li {
+    color: blue;
+  List-Style: None;
+  Display: Inline-Block;
+  Padding: 10px 20px;
+}
+Nav Ul Li A {
+font-size: 20px;
+ font-weight: bolder;
+  Color:blue;
+  Position: Relative;
+  Padding: 5px 0;
+}
+Nav Ul Li A:hover {
+  Color: blue;
+}
+Nav Ul Li A:after {
+  Content: "";
+  Position: Absolute;
+  Left: 0;
+  Width: 0;
+  Height: 3px;
+  Background: blue;
+  Transition: 0.3s;
+  Bottom: 0;
+}
+Nav Ul Li A:hover:after {
+  Width: 100%;
+}
+.Btn {
+  Color: #Fff;
+  Font-Size: 16px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 2px;
+  Padding: 16px 40px;
+  Border-Radius: 500px;
+  Display: Inline-Block;
+  Font-Weight: 500;
+  Transition: All 0.4s Ease-In-Out;
+  Background-Size: 152% 100%;
+  Background:blue;;
+  Border: 2px solid blue;
+}
+.Btn:hover {
+  Background: Transparent;
+  Border-Color:Blue;
+  Color:blue;
+}
+.Content {
+  Position: Absolute;
+  Top: 35%;
+  Left: 8%;
+}
+.Content .Title {
+  Color: #0a0a0a;
+  Font-Size: 15px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 4px;
+  Display: Inline-Block;
+  Margin-Bottom: 20px;
+}
+.Content H1 {
+  Color: #1f1f25;
+  Font-Size: 75px;
+  Font-Weight: 900;
+  Line-Height: 90px;
+  Text-Transform: Inherit;
+  Width: 70%;
+}
+.Content H1 Span {
+  color: blue;
+}
+.Content P {
+  Width: 55%;
+  Color: #201e1e;
+  Margin-Top: 25px;
+  Margin-Bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.myeducation{
+    background-color: aqua;
+    border: 2px solid blue;
+} 
+.myeducation button{
+
+}
+.myeducation button h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 500px;
+}
+.myeducation button h1:hover{
+    background-color: white;
+}
+
+
+.dasvi {
+  font-weight: bolder;
+    background-color:  #cbcecd;
+color: white;
+height: 45px;
+margin-top: 20px;
+border: 2px solid blue;
+}
+
+.dasvi p{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.barvi {
+  font-weight: bolder;
+font-size: large;
+background-color:  #cbcecd;
+color: white;
+height: 45px;
+margin-top: 20px;
+border: 2px solid blue;
+}
+
+.barvi p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.dasvi p:hover{
+background-color:white;
+color: blue;
+}
+.barvi p:hover{
+    background-color:white;
+    color: blue;
+    }
+
+    .persuing {
+      font-weight: bolder;
+        font-size: large;
+        background-color:  #cbcecd;
+        color: white;
+        height: 45px;
+        margin-top: 20px;
+        border: 2px solid rgb(70, 70, 170);
+        }
+        
+        .persuing p{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .persuing p:hover{
+        background-color:white;
+        color: rgb(60, 60, 214);
+        }
+
+        .container {
+          border: 2px sloid blue;
+            margin-top: 50px;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color:  aqua;
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        
+        form {
+          border: 2px solid blue;
+            margin-top: -30px;
+            margin-bottom: 0;
+            background-color: aqua;
+            display: fixed;
+            flex-direction: column;
+            padding: 2vw 4vw;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 10px;
+        
+        }
+        
+        form h2 {
+
+            color: darkseagreen;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+        
+        form #Name {
+            border: none;
+            background-color: whitesmoke;
+            width: 90%;
+            margin-bottom: 15px;
+            font-size: 19px;
+        }
+        
+        form #Email {
+            border: none;
+            background-color: whitesmoke;
+            width: 90%;
+            margin-bottom: 15px;
+            font-size: 19px;
+        }
+        
+        form #Phone {
+            border: none;
+            background-color: whitesmoke;
+            width: 90%;
+            margin-bottom: 15px;
+            font-size: 19px;
+        }
+        
+        form #message {
+            background-color: whitesmoke;
+            width: 90%;
+            margin-bottom: 15px;
+            font-size: 19px;
+        }
+        
+        form button {
+            height: 50px;
+            border: none;
+            background-color: #ff5361;
+            width: 30%;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+        
+        .skillcontainer {
+          border: 1px solid blue;
+            height: 50px;
+            width: 90%;
+            background-color: #ddd;
+          }
+          
+          .skills {
+            height: 50px;
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+          }
+          .skill html{
+            height: 35px;
+          }
+          .skill .css{
+            height: 35px;
+          }
+          .skill .js{
+            height: 35px;
+          }
+          
+          .html {width: 90%; background-color: #04AA6D; height: 50px;}
+          .css {width: 80%; background-color: #2196F3; height: 50px;}
+          .js {width: 45%; background-color: #f44336; height: 50px;}
+          .form{
+            background-color: aqua;
+          }
+          .edu{
+            background-color: aqua;
+          }
+          .skil{
+            border-b: 2px solid blue;
+            background-color: aqua;
+          }
