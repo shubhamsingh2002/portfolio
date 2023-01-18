@@ -194,8 +194,8 @@ Nav Ul Li A:hover:after {
 .ourskill{
   display: flex;
   margin: auto auto;
-  margin-bottom: 35px;
-  margin-top: 30px;
+  margin-bottom: 3%;
+  margin-top: 3%px;
 }
 .SKill h1{
   background-color:#219ebc;
@@ -207,7 +207,7 @@ Nav Ul Li A:hover:after {
 .html{
   
   margin-top:1em ;
-  margin-left:125px ;
+  margin-left: 20% ;
   border: 1px solid black;
   border-radius: 30%;
   height: 200px;
